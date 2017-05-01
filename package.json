@@ -1,8 +1,28 @@
 {
-    "name": "JsonToHtml",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "Vinod Selvin",
-    "contributors": [],
-    "dependencies": {}
+  "name": "simple-json-to-html-converter",
+  "version": "1.0.1",
+  "keywords": [
+    "Simple",
+    "json",
+    "html",
+    "converter",
+    "browser"
+  ],
+  "author": "Vinod Selvin",
+  "contributors": [],
+  "dependencies": {},
+  "description": "\"# JSON-to-HTML-Converter\"",
+  "main": "src/json-to-html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodselvin/JSON-to-HTML-Converter.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinodselvin/JSON-to-HTML-Converter/issues"
+  },
+  "homepage": "https://github.com/vinodselvin/JSON-to-HTML-Converter#readme"
 }
