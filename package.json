@@ -1,6 +1,6 @@
 {
   "name": "simple-json-to-html-converter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "keywords": [
     "Simple",
     "json",
@@ -11,7 +11,7 @@
   "author": "Vinod Selvin",
   "contributors": [],
   "dependencies": {},
-  "description": "\"# JSON-to-HTML-Converter\"",
+  "description": "\"# JSON-to-HTML-Converter, In this Version It Can convert only unique html elements\"",
   "main": "src/json-to-html.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
