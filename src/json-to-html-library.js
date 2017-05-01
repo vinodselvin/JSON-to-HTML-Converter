@@ -10,7 +10,6 @@
      * @Desc: Set Json Data
      */
     methods.setJson = function(value) {
-        // Set the property & value
         var resp = validateJSON(value);
         
         // Set the property & value
@@ -29,27 +28,11 @@
             console.log(json_response);
 //            var json_deduplicate = deduplicateJson(json_response);
             var html = convertJsonToHtml(json_response);
-            return html;
+            return html.innerHTML;
         }
         catch (exception) {
             var error = "Invalid Json Format";
             console.log("%c" + _error + error, 'background: red; color: white;');
-        }
-    }
-    
-    /*
-     * @Desc: Adjust Duplicate keys 
-     */
-    var deduplicateJson = function(json_response){
-        console.log(json_response);
-        for(var tag_name in json_data){
-            
-            for(var attr_name in _element){
-                
-                if(attr_name == 'html'){
-                    
-                }
-            }
         }
     }
     
