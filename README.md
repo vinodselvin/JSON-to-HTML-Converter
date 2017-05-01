@@ -46,15 +46,22 @@ var data_input =
                 }
             }
         };
+```
 
-data_input = JSON.stringify(data_input);
-console.log(data_input);
+### How To Set Json String
+
+```html
+
 json2Html('mypage').setJson(data_input);
 
-json2Html('mypage').getHtml(function (a) {
-    document.write(a.outerHTML);
-    console.log(a.outerHTML);
+```
+### How To Get converted Html
 
+```html
+
+json2Html('mypage').getHtml(function (a) {
+    // and print text
+    document.write(a.outerHTML);
 });
 
 ```
