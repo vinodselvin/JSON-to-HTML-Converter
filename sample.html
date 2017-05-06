@@ -4,50 +4,94 @@
 
         <script src="json-to-html-library.js"></script>
         
-        <script>
-            var data_input =
-                    {
-                        "p": {
-                            "id": "text",
-                            "class": "form",
-                            "style": "background: orange; border: 1px solid black;padding:5px",
-                            "html": "My First Json p tag"
-                        },
-                        "div": {
-                            "id": "text",
-                            "class": "form",
-                            "style": "background: white; border: 1px solid black;padding:5px",
-                            "html": "My First Json div tag",
-                            "_child": {
-                                "br": {
+        <script>                     
 
-                                },
-                                "hr": {
-
-                                },
-                                "span": {
-                                    "id": "bold",
-                                    "html": "My Name is span and iam inside Div Tag ",
-                                    "style": " border: 1px solid black"
-                                }
-                            }
-                        },
-                        "span": {
-                            "id": "text",
-                            "class": "form",
-                            "html": "My First Json span tag",
-                            "style": "background: green; border: 1px solid black;padding:5px",
-                            "_child": {
-                                "b": {
-                                    "id": "bold",
-                                    "html": " Keep Me Bold ",
-                                    "style": "background: blue; color: white; border: 1px solid black",
-                                }
-                            }
-                        }
-                    };
-                     
-           data_input = JSON.stringify(data_input);
+var data_input = [
+   {
+      "tag":"h3",
+      "id":"table-head",
+      "class":"table-head",
+      "html":"Top 3 Coders in India"
+   },
+   {
+      "tag":"table",
+      "id":"sample-table",
+      "class":"table-class",
+      "border":"1",
+      "_child":[
+         {
+            "tag":"tr",
+            "_child":[
+                {
+                   "tag":"th",
+                   "html":"Rank"
+                },
+                {
+                   "tag":"th",
+                   "html":"Full Name"
+                },
+                {
+                   "tag":"th",
+                   "html":"City"
+                }
+            ]
+         },
+         {
+            "tag":"tr",
+            "_child":[
+                {
+                   "tag":"td",
+                   "html":"1"
+                },
+                {
+                   "tag":"td",
+                   "html":"Vinod Selvin"
+                },
+                {
+                   "tag":"td",
+                   "html":"Mumbai"
+                }
+            ]
+         },
+         {
+            "tag":"tr",
+            "_child":[
+                {
+                   "tag":"td",
+                   "html":"2"
+                },
+                {
+                   "tag":"td",
+                   "html":"Manoj Selvin"
+                },
+                {
+                   "tag":"td",
+                   "html":"Bangalore"
+                }
+            ]
+         },
+         {
+            "tag":"tr",
+            "_child":[
+                {
+                   "tag":"td",
+                   "html":"3"
+                },
+                {
+                   "tag":"td",
+                   "html":"Binson Selvin"
+                },
+                {
+                   "tag":"td",
+                   "html":"Tirunelveli"
+                }
+            ]
+         },
+      ]
+   }
+];
+            
+            data_input = JSON.stringify(data_input);
 
             json2Html('mypage').setJson(data_input);
 

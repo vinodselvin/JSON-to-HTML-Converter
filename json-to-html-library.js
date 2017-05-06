@@ -46,9 +46,14 @@
         
         for(var tag_name in json_data){
         
+//            console.log(tag_name);return false;
+            var _element_name = json_data[tag_name]["tag"];
+            
+            delete json_data[tag_name]["tag"];
+            
             var _element = json_data[tag_name];
 
-            var tag_root = document.createElement(tag_name);
+            var tag_root = document.createElement(_element_name);
 
             for(var attr_name in _element){
                 
