@@ -170,3 +170,5 @@ json2Html('mypage').getHtml(function (html) {
 
 ```
 
+### Look into `sample.html` file for complete Example.
+
