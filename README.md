@@ -2,6 +2,8 @@
 
 ### In this Version It Can convert any Html elements, as it was a limitation in previous version, And also a slight change in Json Format.
 
+<a href="https://www.buymeacoffee.com/vinodselvin" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
+
 ## Syntax
 
 ```html
@@ -171,4 +173,6 @@ json2Html('mypage').getHtml(function (html) {
 ```
 
 ### Look into `sample.html` file for complete Example.
+
+<a href="https://www.buymeacoffee.com/vinodselvin" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
